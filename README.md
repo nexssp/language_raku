@@ -10,7 +10,7 @@ nexss myfile.raku
 
 ## Credits
 
-- templates **default.raku** and **helloWorld.raku** has been built with the help of reddit user: **sjoshuan**
+- templates **default.raku** and **helloWorld.raku** has been built with the help of reddit user: **sjoshuan** and [Lizmat](https://github.com/lizmat)  
   more here: [Reddit Thread: Implementation of Raku in the Nexss Programmer](https://www.reddit.com/r/rakulang/comments/htxw19/implementation_of_raku_in_the_nexss_programmer)
 
 ## Getting Started with Raku
