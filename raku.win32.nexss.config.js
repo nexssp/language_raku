@@ -1,5 +1,5 @@
 let languageConfig = Object.assign({}, require("../config.win32"));
-languageConfig.title = "Perl";
+languageConfig.title = "Raku";
 languageConfig.description =
   "The newest member of the family of languages known as Perl.";
 languageConfig.url = "https://www.raku.org/";
@@ -28,7 +28,7 @@ languageConfig.languagePackageManagers = {
     uninstall: "zef remove",
     help: "zef",
     version: "zef version",
-    init: () => {}
+    init: () => {},
   },
 };
 
