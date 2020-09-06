@@ -1,4 +1,9 @@
 mkdir ~/rakudo && cd $_
+
+is_user_root () { [ ${EUID:-$(id -u)} -eq 0 ]; }
+
+if is_user_root; then apt install -y curl; else sudo apt install -y curl; fi
+
 curl -LJO https://rakudo.org/latest/star/src
 tar -xzf rakudo-star-*.tar.gz
 mv rakudo-star-*/* .
