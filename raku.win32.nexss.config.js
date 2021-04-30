@@ -22,11 +22,12 @@ languageConfig.compilers = {
 languageConfig.errors = require("./nexss.raku.errors");
 languageConfig.languagePackageManagers = {
   zef: {
-    //FIXME: Make zef installation
-    installation: "installed.",
+    installation: "installed.", // We install zef with the main installer
     messageAfterInstallation: "",
-    installed: "zef installed",
+    installed: "zef list --installed",
+    installed: "zef list",
     search: "zef search",
+    info: "zef info",
     install: "zef install",
     uninstall: "zef remove",
     help: "zef",
